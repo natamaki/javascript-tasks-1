@@ -1,7 +1,7 @@
 var hours = process.argv[2];
 var minutes = process.argv[3];
 
-if (Number(hours) === 0) {
+if (Number(hours) === 0 || Number(minutes) === 0) {
     console.log("Нуля среди римских цифр нет");
     return;
 }
